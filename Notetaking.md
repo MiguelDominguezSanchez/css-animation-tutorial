@@ -47,6 +47,7 @@ WHAT YOU SHOULD KNOW
 ### 8 – Animation Timing Functions
 
 ### 9 – Animation Shorthand
+
 ### 10 – Chaining Animations
 ### 11 – Animating a Pop-uup
 ### 12 – Animating a Shopping Cart
