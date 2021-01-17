@@ -76,23 +76,32 @@ html, body{
 /*// ELEMENTS TO ANIMATE //*/
 
 .mario{
-    position: absolute;
-    top: -40px;
-    left: 0px;
-    animation-name: drive;
-    -moz-animation-duration: 3s;
+    /* position: absolute; */
+    /* top: -40px; */
+    /* left: 0px; */
+    /* animation-name: drive; */
+    /* -moz-animation-duration: 3s; */
     /* animation-fill-mode: forwards; */
     /* animation-fill-mode: backwards; */
-    animation-fill-mode: both;
+    /* animation-fill-mode: both; */
     /* animation-delay: 2s; */
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
     /* animation-timing-function: ease; */
     /* animation-timing-function: linear; */
     /* animation-timing-function: ease-in; */
     /* animation-timing-function: ease-out; */
-    animation-timing-function: cubic-bezier(0, .97, 1, .01);
+    /* animation-timing-function: cubic-bezier(0, .97, 1, .01); */
 
     /* https: //cubic-bezier.com/ */
+
+}
+
+.mario {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    animation: drive 3s both infinite linear,
+                    jump 0.3s 1.2s ease;
 
 }
 
@@ -131,11 +140,17 @@ html, body{
 /*// KEYFRAMES //*/
 
 @keyframes drive{
-    from{ transform: translateX(-200); }
+    from{ transform: translateX(-200px); }
     to{ transform: translateX(1000px); }
 }
 
 @keyframes wind{
     from{left: -300px}
     to{left: 100%}
+}
+
+@keyframes jump{
+    0%{ top: -40px }
+    50%{ top: -100px }
+    100%{ top: -40px }
 }
