@@ -50,7 +50,8 @@ WHAT YOU SHOULD KNOW
 
 ### 10 – Chaining Animations
 
-### 11 – Animating a Pop-uup
+### 11 – Animating a Pop-up
+
 ### 12 – Animating a Shopping Cart
 ### 13 – Flipping Cards Animation
 
