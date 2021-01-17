@@ -41,7 +41,9 @@ WHAT YOU SHOULD KNOW
 ### 5 – Animation Fill Mode
 
 ### 6 – Repeating Animations
+
 ### 7 – Animation Direction
+
 ### 8 – Animation Timing Functioins
 ### 9 – Animation Shorthand
 ### 10 – Chaining Animations
