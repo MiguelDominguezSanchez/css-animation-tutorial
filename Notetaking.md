@@ -44,7 +44,8 @@ WHAT YOU SHOULD KNOW
 
 ### 7 – Animation Direction
 
-### 8 – Animation Timing Functioins
+### 8 – Animation Timing Functions
+
 ### 9 – Animation Shorthand
 ### 10 – Chaining Animations
 ### 11 – Animating a Pop-uup

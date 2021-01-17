@@ -85,7 +85,15 @@ html, body{
     /* animation-fill-mode: backwards; */
     animation-fill-mode: both;
     /* animation-delay: 2s; */
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    animation-timing-function: cubic-bezier(0, .97, 1, .01);
+
+    /* https: //cubic-bezier.com/ */
+
 }
 
 .luigi{
